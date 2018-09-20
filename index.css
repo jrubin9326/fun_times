@@ -1,9 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-.wrapper {
-    display: flex;
-}
+
 h1 {
     text-align: center;
     background-color:black; 
@@ -12,19 +10,26 @@ h1 {
      
 }
 
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
 .name {
     font-weight: 600;
 
 }
-img {
-    /* float: left; */
+/* img {
+    float: left;
     background-color:green;
     flex-wrap: nowrap;
-    width: 33%;
-    
+    margin-right:20px;
+    margin-top:20px
+
 }
 .bio {
-    /* float: left; */
+    float: left;
     background-color:red;
     flex-wrap: nowrap;
     padding: 20px;
@@ -32,12 +37,25 @@ img {
 }
 
 div {
-    /* float: left; */
+    float: left;
     padding:0px;
     margin:20px;
     width:33%;
     background-color:pink;
-    flex-wrap:nowrap
+    flex-wrap:nowrap;
 
+} *//
+
+img {
+    flex-basis: fit-content;
+    height: 250px;
+    width: 250px;
 }
 
+/* .bio {
+    flex-grow: 1;
+}
+
+div {
+    flex-grow: 1;
+} */
