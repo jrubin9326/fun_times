@@ -1,0 +1,43 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+    display: flex;
+}
+h1 {
+    text-align: center;
+    background-color:black; 
+    color: white
+    
+     
+}
+
+.name {
+    font-weight: 600;
+
+}
+img {
+    /* float: left; */
+    background-color:green;
+    flex-wrap: nowrap;
+    width: 33%;
+    
+}
+.bio {
+    /* float: left; */
+    background-color:red;
+    flex-wrap: nowrap;
+    padding: 20px;
+    width: 33%;
+}
+
+div {
+    /* float: left; */
+    padding:0px;
+    margin:20px;
+    width:33%;
+    background-color:pink;
+    flex-wrap:nowrap
+
+}
+
